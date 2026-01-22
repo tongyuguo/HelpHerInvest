@@ -64,4 +64,4 @@ ADAN 8888 Project, the goal is to create a personalized recommendation model tha
 
 ## Week 14 Review a peer’s work and provide feedback
 1. Review a peer’s end to end modeling work and related artifacts
-2. Provide written feedback to a peer’s work and artifacts
+2. Provide written feedback to a peer’s work and artifacts  
