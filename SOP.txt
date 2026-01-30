@@ -1,0 +1,18 @@
+# 1) Go to repo
+%cd /home/jupyter-guotq/HelpHerInvest
+
+# 2) Sync latest from GitHub before editing
+!git pull --rebase origin main
+
+# 3) Do your data work here (create/modify files)
+
+# 4) Check what changed
+!git status -sb
+
+# 5) Stage + commit
+!git add -A
+!git commit -m "hopefull final testing of working and output directory"
+
+# 6) Push
+!git push
+
