@@ -1,0 +1,14 @@
+# Core app
+streamlit>=1.35.0
+plotly>=5.20.0
+
+# Data / ML
+pandas>=2.0.0
+numpy>=1.26.0
+lightgbm>=4.0.0
+scikit-learn>=1.4.0
+pyarrow>=14.0.0
+
+# NLP / OpenAI
+openai>=1.30.0
+python-dotenv>=1.0.0
