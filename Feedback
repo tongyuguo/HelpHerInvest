@@ -1,0 +1,28 @@
+Feedback for Group HelpherInvest
+Jiayi Hou, Nikolas Papa, Yinyi Xue
+ADAN 8888 - Applied Analytic Project - Spring 2026
+
+Github Structure
+
+Yinyi: The README is Awesome!  It clearly communicates the project's goal and provides step-by-step instructions for setting up the environment and API key, which makes it easy for us to understand the context and get started without any confusion. The repository structure is equally clean and easy to navigate, with folders like Notebooks, Data, Models, Code Outputs, Reports, and Presentation each serving a clear and logical purpose. The team did great work by putting real thought into how someone outside the group would navigate the repo.
+Jiayi：The overall pipeline demonstrates strong conceptual organization and shows a clear understanding of modular analytics workflow design. One point of clarification is whether  nano.env   refers simply to a lightweight environment configuration file or to a more compact orchestration framework. If the latter, it may be worth exploring HKU’s nanobot framework as a smaller and more integrated architecture reference for streamlining deployment.
+Nik: The Github structure was perfect. Every section is clearly defined and organized. One thing that stands out is the consistency in each week's deliverable. There is a coherent structure in everything from folder layout, to weekly reports, to your code chunks in the notebook. I thought this was high level organization in a strong project that pushes the the quality over the top.
+
+Jupyter Notebook
+
+Yinyi: The notebook is structured with clear section headers — Imports, Configuration, Data Loading, and so on — which makes it easy to understand the flow of the analysis without feeling overwhelmed. The configuration cell in particular is well thought out, centralizing all key paths, parameters, and hyperparameters in one place, which makes the code much easier to modify and maintain. Also the notebook pairs well with the weekly project reports
+Jiayi: The methodology is presented clearly, and the inclusion of multiple models shows thoughtful experimentation. The workflow reflects good analytical discipline, although additional explanatory markdown around parameter tuning and experiment rationale could further strengthen reproducibility and readability.
+Nik: The notebook does a great job showing the iterative experimentation across both structured financial modeling and the NLP recommendation layer. I especially liked your model selection(logistic regression, KNN, neural nets, LightGBM) using logical techniques and using cross-validation to create a sound model. The only opportunity I saw in your notebooks/code was in the project reproducibility and pipeline clarity. The notebook appears to jump between stock modeling and OpenAI integration without always clearly separating preprocessing, modeling, and recommendation logic. Other than that I thought it was a wonderful job.
+
+Code output
+
+Yinyi: The Code ran smoothly and THe matircs are strong. Great job.
+Jiayi: The project demonstrates meaningful technical depth through its use of multiple evaluation metrics, cross validation, bootstrapping, and SHAP based interpretability. A little suggestion: the presentation would be even more compelling with more explicit quantitative evidence such as benchmark performance comparisons, visualized backtesting results, or clearer reporting of model performance metrics to make the impact of the system easier to evaluate.
+Nik: Your output metrics were super strong, not just because you didn’t stop at traditional classification metrics, but you also evaluated portfolio performance against the S&P 500, which was a smart business-aligned metric. I thought the creativity and soundness of the code was apparent throughout the whole project. The addition of bootstrapping was also strong because it showed concern for model stability. Really stellar job.
+
+Project Report
+
+Yinyi: Focusing on the final report, the concept behind HelpHerInvest is genuinely interesting!  Combining NLP-based user input with a quantitative stock ranking model goes beyond a typical prediction task, and framing the problem around user preferences rather than raw performance metrics makes the system feel practical and purposeful. The report explains the pipeline and all of the decisions clearly and in a way that's easy to follow.
+Jiayi: It does an excellent job of communicating both the technical process and the broader application of the system. The discussion of deployment, monitoring, and concept drift handling adds notable depth and demonstrates awareness of real world machine learning implementation challenges. 
+Nik: The report does an excellent job organizing the project around the MDLC and clearly explaining the end-to-end system. I especially liked that your product feels very practical. Its a great combination of predictive modeling with user personalization, something that is key in the professional landscape. The only gap is that the deployment section feels slightly high level compared to the strength of your modeling section, but this is a minor opportunity compared to the high overall level of the report.
+
